@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="fstPage" class="d-flex flex-column justify-content-center align-items-center pt-5">
+        <div class="w-25 mb-3">
+            <label for="name" class="form-label">Enter Your Name :</label>
+            <input type="text" class="form-control form-input">
+        </div>
+        <div class="w-25 mb-3">
+            <label for="name" class="form-label">Enter Your age :</label>
+            <input type="number" class="form-control form-input">
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male" class="form-label"><img src="Images/1.jpg" alt=""></label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female" class="form-label"><img src="Images/2.jpg" alt=""></label>
+        </div>
+        <div class="mb-3 d-flex flex-column align-items-center">
+            <label for="name" class="form-label">select your favorit color :</label>
+            <input id="color" type="color" class="form-control form-control-color w-25 form-input">
+        </div>
+        <button id="formBtn" class="btn btn-dark">Register</button>
+    </section>
+    
+    <section id="sndPage" class="d-none">
+
+    </section>
+
+
+    <script src="myLibrary.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
